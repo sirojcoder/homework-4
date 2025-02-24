@@ -18,7 +18,7 @@ div input {
     font-size: 16px;
 }
 
-button {
+.delete {
     padding: 10px 15px;
     background-color: #007bff;
     color: white;
@@ -28,8 +28,18 @@ button {
     font-size: 16px;
     transition: background 0.3s;
 }
+button{
+    background: blue;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
 
-button:hover {
+.delete:hover {
     background-color: #0056b3;
 }
 
@@ -56,11 +66,23 @@ ul {
   
 }
 
-.lii button {
+.lii .delete {
     background-color: #dc3545;
     margin-top: 10px;
 }
 
-.lii button:hover {
+.lii .delete:hover {
     background-color: #c82333;
+}
+.edit{
+    background: green;
+    color: white;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+    margin-left: 22px;
 }
